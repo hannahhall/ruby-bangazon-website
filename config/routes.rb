@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :products
   resources :product_types
   get 'welcome/index'
   root 'welcome#index'
